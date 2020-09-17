@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "fitnessity-bot"
+version = "0.1.0"
+description = ""
+authors = ["alcorpuz <alexisnotonfire1@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+discord = "^1.0.1"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+start = "src.fitnessity_bot.index:main"
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+description = "Fitnessity Companion Discord App"
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/alcorpuz/fitnessitybot"
+repository = "https://github.com/alcorpuz/fitnessitybot"
+keywords = ["fitnessity"]
+
